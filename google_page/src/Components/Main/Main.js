@@ -15,11 +15,11 @@ return(
         <h1 class="text-success">l</h1>
         <h1 class="text-danger">e</h1>
     </div>
-    <div>
+    <div class="col-auto">
         <img id="lupe" src={lupe} alt="lupe"/>
-        <input id="search-bar" type="text" ></input>
-        <img id="keyboard" src={keyboard} alt="keyboard"/>
-        <img id="mic" src={mic} alt="micriphone"/>
+        <input id="search-bar" type="text" class="w-100"></input>
+        <img id="keyboard" src={keyboard} alt="keyboard" />
+        <img id="mic" src={mic} alt="microphone"/>
     </div>
    
    

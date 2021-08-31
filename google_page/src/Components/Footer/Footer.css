@@ -18,3 +18,18 @@ p, a{
 a:hover{
     color:#70757a;
 }
+@media only screen and (max-width: 600px){
+    #footer{
+        width: auto;
+        height:100px;
+
+    }
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .first{
+        margin-bottom: 5px;
+    }
+}
