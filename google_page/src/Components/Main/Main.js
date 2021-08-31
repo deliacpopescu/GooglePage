@@ -1,4 +1,7 @@
 import React from 'react';   
+import lupe from './../../images/lupe.png';
+import keyboard from './../../images/keyboard.png';
+import mic from './../../images/Google_mic.svg.png';
 import './Main.css';
 
 function Main(){
@@ -12,7 +15,13 @@ return(
         <h1 class="text-success">l</h1>
         <h1 class="text-danger">e</h1>
     </div>
-    <input id="search-bar" type="text" ></input>
+    <div>
+        <img id="lupe" src={lupe} alt="lupe"/>
+        <input id="search-bar" type="text" ></input>
+        <img id="keyboard" src={keyboard} alt="keyboard"/>
+        <img id="mic" src={mic} alt="micriphone"/>
+    </div>
+   
    
     <div class="p-3 mt-4">
         <button type="button" class="btn btn-light mr-4">Google Search</button>
