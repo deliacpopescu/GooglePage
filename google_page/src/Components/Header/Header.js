@@ -15,7 +15,7 @@ function Header(){
        <div id="header" class="d-flex justify-content-end">
            <a href="https://www.google.com" class="p-3">Gmail</a>
            <a href="https://www.google.com" class="p-3">Images</a>
-           <div className="position-relative">
+           <div class="position-relative">
                 <img id="app-img" data-tip='' data-for="registerTip1" src={apps} alt="apps" />
                 <ReactTooltip id="registerTip1" place="bottom" effect="float">Google Apps</ReactTooltip>
                 

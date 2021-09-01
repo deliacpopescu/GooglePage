@@ -7,6 +7,7 @@
     margin-top: 10%;
     /* height:800px; */
 }
+
 #search-bar{
     height:44px;
     border:1px solid #dfe1e5;
@@ -42,5 +43,16 @@
 }
 a:hover{
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px) {
+    h1{
+        font-size:80px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    h1{
+        font-size:120px;
+    }
 }
 
