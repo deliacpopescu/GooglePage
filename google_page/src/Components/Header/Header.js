@@ -12,8 +12,8 @@ import './Header.css';
 function Header(){
     return(
        <div id="header" class="d-flex justify-content-end">
-           <p class="p-3">Gmail</p>
-           <p class="p-3">Images</p>
+           <a href="https://www.google.com" class="p-3">Gmail</a>
+           <a href="https://www.google.com" class="p-3">Images</a>
                  <img id="app-img" src={apps} alt="apps" />
                  {/* <span class="tooltiptext">Google Apps</span> */}
               

@@ -23,7 +23,7 @@ return(
     </div>
    
    
-    <div class="p-3 mt-4">
+    <div class="btns p-3 mt-4">
         <button type="button" class="btn btn-light mr-4">Google Search</button>
         <button type="button" class="btn btn-light">I'm Feeling Lucky</button>
     </div>    
