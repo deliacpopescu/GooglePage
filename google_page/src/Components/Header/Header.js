@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactTooltip from "react-tooltip";
 import apps from './../../images/apps.png';
 import me from './../../images/me.jpeg';
 import calendar from './../../images/calendar.png';
@@ -14,8 +15,11 @@ function Header(){
        <div id="header" class="d-flex justify-content-end">
            <a href="https://www.google.com" class="p-3">Gmail</a>
            <a href="https://www.google.com" class="p-3">Images</a>
-                 <img id="app-img" src={apps} alt="apps" />
-                 {/* <span class="tooltiptext">Google Apps</span> */}
+           <div className="position-relative">
+                <img id="app-img" data-tip='' data-for="registerTip1" src={apps} alt="apps" />
+                <ReactTooltip id="registerTip1" place="bottom" effect="float">Google Apps</ReactTooltip>
+                
+           </div>
               
                 <div class="google-apps d-flex flex-column ">
                     <div class="d-flex justify-content-around mt-3 mb-3">

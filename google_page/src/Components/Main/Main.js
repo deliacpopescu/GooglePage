@@ -1,4 +1,5 @@
 import React from 'react';   
+import ReactTooltip from "react-tooltip";
 import lupe from './../../images/lupe.png';
 import keyboard from './../../images/keyboard.png';
 import mic from './../../images/Google_mic.svg.png';
@@ -18,8 +19,11 @@ return(
     <div class="col-auto">
         <img id="lupe" src={lupe} alt="lupe"/>
         <input id="search-bar" type="text" class="w-100"></input>
-        <img id="keyboard" src={keyboard} alt="keyboard" />
-        <img id="mic" src={mic} alt="microphone"/>
+        {/* <img id="keyboard" src={keyboard} alt="keyboard" /> */}
+        <img id="mic" data-tip='' data-for="registerTip2" src={mic} alt="microphone"/>
+        <ReactTooltip id="registerTip2" place="bottom" effect="float">Search by voice</ReactTooltip>
+     
+        
     </div>
    
    
