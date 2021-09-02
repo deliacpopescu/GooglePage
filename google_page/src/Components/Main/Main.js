@@ -18,7 +18,7 @@ return(
     </div>
     <div class="col-auto">
         <img id="lupe" src={lupe} alt="lupe"/>
-        <input id="search-bar" type="text" class="w-100"></input>
+        <input id="search-bar" type="text" class="w-75"></input>
         {/* <img id="keyboard" src={keyboard} alt="keyboard" /> */}
         <img id="mic" data-tip='' data-for="registerTip2" src={mic} alt="microphone"/>
         <ReactTooltip id="registerTip2" place="bottom" effect="float">Search by voice</ReactTooltip>
@@ -39,8 +39,6 @@ return(
         <a class="mr-2" href="https://www.google.com/setprefs?sig=0_n02S24IAL8XhmM1Ccg-7v2JhgVc%3D&hl=de&source=homepage&sa=X&ved=0ahUKEwiLxqmH5NvyAhUC7XMBHVKgBWgQ2ZgBCBE">Deutsch</a>
     </div>    
 
- 
-    
 </div>
 )
 }
